@@ -1,0 +1,17 @@
+/* @page { size: 297mm 420mm} */
+
+.setubi1{
+  width: 100%;
+}
+.setubibox{
+  text-align: center;
+}
+
+.setubibox img{
+  width: 420mm;
+  height: 290mm;
+} 
+
+@media print{
+
+}

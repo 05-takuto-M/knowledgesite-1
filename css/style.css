@@ -1,0 +1,243 @@
+/*--header--*/
+@import url(https://fonts.googleapis.com/css?family=Arvo:700);
+@import url(https://fonts.googleapis.com/css?family=Seaweed+Script);
+
+html{
+  font-size: 62.5%;
+}
+
+body {
+    width: 75vw;
+    margin: auto;
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: #333;
+}
+/* header {
+  background-color: black;
+  margin: 0 auto;
+  padding-top: 1em;
+} */
+.osirase{
+  color: aliceblue;
+  font-weight: bold;
+}
+h2{
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+}
+h5{
+  font-size: 200%;
+}
+a {
+  color: #333;
+  text-decoration-line: underline;
+  text-decoration-color: blue;
+  }
+.image{
+  background-color: red;
+}
+h3{
+  font-weight: bold;
+}
+.position0 {
+    margin-left: 0em;
+    padding-top: 1em;
+    line-height: 1.2em;
+}
+.position {
+    margin-left: 1em;
+    line-height: 1.5em;
+}
+.position1{
+  margin-left: 1em;
+  line-height: 1.5em;
+}
+.position2{
+  margin-left: 0.1em;
+  padding-top: 0.5em;
+}
+.position3{
+  margin-left: 1vw;
+  padding-top: 0.5em;
+}
+.position4{
+  margin-left: 1vw;
+  padding-top: 1em;
+  line-height: 1.2em;
+}
+.position5{
+  margin-left: 0em;
+}
+.position6{
+  padding-top: 1em;
+  line-height: 1.2em;
+}
+.kasen{
+  text-decoration: underline;
+  font-size: 14px;
+}
+.sssss1{
+  display: flex;
+  justify-content: center;
+}
+.sssss{
+  display: flex;
+}
+section{
+  width: 45vw;
+}
+
+.plate {
+    width: 100%;
+    margin-top: 1em;
+}
+.shadow {
+  color:red;
+  /* font-family: Arvo; */
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #222,
+    3px -3px 0 #222,
+    -3px 3px 0 #222,
+    3px 3px 0 #222,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.shadow2 {
+  color: #fff;
+  font-family: 'Arial Narrow';
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin:0;
+  text-align: center;
+}
+.script {
+  /* font-family: "Seaweed Script"; */
+  color: red;
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  margin:0;
+  margin-top: 0.5em;
+  padding: 0%;
+}
+.script span {
+  padding: 0 0.3em;
+}
+.script:before {
+  content:"";
+  display: block;
+  position: absolute;
+  z-index:1;
+  top: 100%;
+  width: 100%;
+}
+.text1 {
+  font-size: 40px;
+}
+.text2 {
+  font-size: 149px;
+}
+.text3 {
+  font-size: 60px;
+}
+/*アコーディオンメニュー*/
+.acd-check{
+  display: none;
+}
+.acd-label{
+  background: #333;
+  color: aliceblue;
+  display: block;
+  margin-bottom: 1px;
+  padding: 10px;
+}
+.acd-content{
+  border: 1px solid gray;
+  height: 0;
+  opacity: 0;
+  padding: 0 10px;
+  transition: .5s;
+  visibility: hidden;
+}
+.acd-check:checked + .acd-label + .acd-content{
+  font-size: 15px;
+  height: 125px;
+  opacity: 1;
+  padding: 10px;
+  visibility: visible;
+}
+/*アコーディオンメニュー*/
+/*--header--*/
+
+/*--scrollanime--*/
+<style type="text/css">
+.scroll {
+  margin-left: 2em;
+  width      : 1366px;
+  font-size  : 140%;
+  line-height: 1.0em;
+  text-align : center;
+  border     : 1px solid #666;
+  color      : #000000;
+  background : #fff;
+  overflow   : hidden;
+}
+.scroll span{
+  width: 100px;
+  margin: auto;
+  display     : inline-block;
+  padding-left: 50%;
+  white-space : nowrap;
+  line-height : 1em;
+  animation   : scrollAnime 5s linear infinite;
+}
+.size1{
+    width: 200px;
+    color: blue;
+}
+.scrollpossion{
+  display: flex;
+}
+@keyframes scrollAnime{
+    0% { transform: translateX(0)}
+  100% { transform: translateX(-100%)}
+}
+</style>
+/*--scrollanime--*/
+
+
+@page{size:  420mm 297mm } /* A3縦サイズ */
+.setubi1{
+  width: 100%;
+}
+.setubibox{
+  text-align: center;
+}
+
+.setubibox img{
+  width: 1290px;
+  height: 900px;
+}
+
+.headerposi{
+  display: flex;
+}
+.area1{
+  margin-left: 2vw;
+  margin-top: 1em;
+}
